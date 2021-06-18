@@ -1,0 +1,37 @@
+.Card {
+  font-size: 9px;
+  display: flex;
+  height: 100px;
+}
+.Card picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 125px;
+}
+
+.Card picture img {
+  width: 75%;
+  border-radius: 50%;
+  height: 75%;
+  object-fit: cover;
+}
+
+.Card .Card_metrics {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 0 35px;
+}
+
+.Card .Card_metrics div {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Card .Card_metrics div span {
+  font-weight: bold;
+}

@@ -1,0 +1,25 @@
+.Description {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px 10px 10px;
+}
+
+.Description .Description_info h4 {
+  font-size: 0.8rem;
+}
+
+.Description .Description_info p {
+  font-size: 0.8rem;
+  margin-top: -12px;
+  margin-bottom: 40px;
+}
+
+.Description button {
+  background-color: white;
+  border: 1px solid rgb(216, 213, 213);
+  border-radius: 4px;
+  font-size: 0.7em;
+  padding: 5px 0;
+  font-weight: bold;
+  cursor: pointer;
+}
